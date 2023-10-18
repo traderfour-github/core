@@ -1,0 +1,94 @@
+<?php
+
+namespace App\Enums\V1\Market\Platform;
+
+use App\Enums\V1\EnumTrait;
+
+abstract class OsCodes
+{
+    use EnumTrait;
+
+    const AIX = 12100;
+    const ANDROID = 12101;
+    const AMIGA_OS = 12102;
+    const TV_OS = 12103;
+    const ARCH_LINUX = 12104;
+    const BACK_TRACK = 12105;
+    const BADA = 12106;
+    const BE_OS = 12107;
+    const BLACK_BERRY_OS = 12108;
+    const BLACK_BERRY_TABLET_OS = 12109;
+    const CAIXA_MAGICA = 12110;
+    const CENT_OS = 12111;
+    const CHROME_OS = 12112;
+    const CYANOGEN_MOD = 12113;
+    const DEBIAN = 12114;
+    const DEEPIN = 12115;
+    const DRAGON_FLY = 12116;
+    const FEDORA = 12117;
+    const FIREFOX_OS = 12118;
+    const FIRE_OS = 12119;
+    const FREE_BSD = 12120;
+    const FYDE_OS = 12121;
+    const GENTOO = 12122;
+    const GOOGLE_TV = 12123;
+    const HP_UX = 12124;
+    const HAIKU_OS = 12125;
+    const IPAD_OS = 12126;
+    const HARMONY_OS = 12127;
+    const KAI_OS = 12128;
+    const KNOPPIX = 12129;
+    const KUBUNTU = 12130;
+    const GNU_LINUX = 12131;
+    const LUBUNTU = 12132;
+    const MAC = 12133;
+    const MAEMO = 12134;
+    const MAGEIA = 12135;
+    const MANDRIVA = 12136;
+    const MEE_GO = 12137;
+    const MINT = 12138;
+    const MORPH_OS = 12139;
+    const NET_BSD = 12140;
+    const NINTENDO = 12141;
+    const NINTENDO_MOBILE = 12142;
+    const OS_2 = 12143;
+    const OPEN_BSD = 12144;
+    const OPEN_WRT = 12145;
+    const PC_LINUX_OS = 12146;
+    const PLAY_STATION_PORTABLE = 12147;
+    const PLAY_STATION = 12148;
+    const RED_HAT = 12149;
+    const RISC_OS = 12150;
+    const ROKU_OS = 12151;
+    const ROSA = 12152;
+    const REMIX_OS = 12153;
+    const REX = 12154;
+    const SABAYON = 12155;
+    const SUSE = 12156;
+    const SAILFISH_OS = 12157;
+    const SLACKWARE = 12158;
+    const SOLARIS = 12159;
+    const SYLLABLE = 12160;
+    const SYMBIAN = 12161;
+    const SYMBIAN_OS = 12162;
+    const SYMBIAN_OS_SERIES40 = 12163;
+    const SYMBIAN_OS_SERIES60 = 12164;
+    const SYMBIAN_3 = 12165;
+    const THREAD_X = 12166;
+    const TIZEN = 12167;
+    const UBUNTU = 12168;
+    const WATCH_OS = 12169;
+    const WHALE_OS = 12170;
+    const WINDOWS = 12171;
+    const WINDOWS_CE = 12172;
+    const WINDOWS_IOT = 12173;
+    const WINDOWS_MOBILE = 12174;
+    const WINDOWS_PHONE = 12175;
+    const WINDOWS_RT = 12176;
+    const XBOX = 12177;
+    const XUBUNTU = 12178;
+    const YUN_OS = 12179;
+    const IOS = 12180;
+    const PALM_OS = 12181;
+    const WEB_OS = 12182;
+}

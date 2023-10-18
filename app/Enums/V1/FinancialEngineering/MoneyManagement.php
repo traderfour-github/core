@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Enums\V1\FinancialEngineering;
+
+use App\Enums\V1\EnumTrait;
+
+enum MoneyManagement: int
+{
+    use EnumTrait;
+
+    // POSITION_SIZE_MODE
+    case POSITION_SIZE_MODE_BALANCE = 30200;
+    case POSITION_SIZE_MODE_EQUITY = 30201;
+    case POSITION_SIZE_MODE_FREE_MARGIN = 30202;
+    case POSITION_SIZE_MODE_MARGIN = 30203;
+
+    // POSITION_SIZE_CALCULATION
+    case POSITION_SIZE_CALCULATION_PERCENTAGE = 30210;
+    case POSITION_SIZE_CALCULATION_AMOUNT = 30211;
+    case POSITION_SIZE_CALCULATION_LOTS = 30212;
+
+    // STATUS
+    case STATUS_ACTIVE = 30220;
+    case STATUS_INACTIVE = 30221;
+
+}
